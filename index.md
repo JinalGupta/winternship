@@ -1,18 +1,6 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: home
-title: Welcome to CodersHigh
 ---
-
-## Table of Contentss
-* [Introduction](#introduction)
-* [What is Winternship@IIT Ropar all about?](#allabout)
-
-## Introduction {#introduction}
-Meenakshi to place introduction here
-
-## What is Winternship all about? {#allabout}
-
-
-
-
-

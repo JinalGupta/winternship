@@ -1,12 +1,3 @@
-<!--
- ---
-layout: case-study
-title: "Basic Syntax in TypeScript"
-order: 1
-summary: "Learn the fundamental syntax rules of TypeScript to write clear, consistent, and maintainable code."
-tags: [typescript, mern]
----
--->
 ---
 layout: case-study
 title: "Basics"

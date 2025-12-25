@@ -3,10 +3,9 @@ layout: case-study
 title: "Aggregation Framework"
 module: MongoDB
 order: 1
-summary: "Learn about Aggregation Framework in MongoDB"
+summary: "Learn about MongoDB Aggregation Framework: $match, $group, $project, and Pipeline Stages"
 ---
 
- MongoDB Aggregation Framework: $match, $group, $project, and Pipeline Stages
 
 ## 1. Problem Statement
 

@@ -3,10 +3,8 @@ layout: case-study
 title: "CRUD Operations"
 module: MongoDB
 order: 2
-summary: "Learn about CRUD Operations in MongoDB"
+summary: "Learn about MongoDB CRUD Operations: insertOne, find, updateOne, deleteOne"
 ---
-
-CRUD Operations: insertOne, find, updateOne, deleteOne.
 
 ## 1. Problem Statement
 

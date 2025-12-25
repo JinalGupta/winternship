@@ -6,8 +6,6 @@ order: 14
 summary: "Learn about Generics in TypeScript"
 ---
 
-Topic 2: Generics (Reusable, Type-Safe Components and Functions)
-
 ## 1. Problem Statement
 
 ## EduFlow’s Growing Toolbox Challenge
@@ -17,6 +15,8 @@ The development team notices they keep writing very similar code for handling li
 
 
 ![Tool Box Challenge](https://i.postimg.cc/593nqCws/topic-2.png)
+
+
 **The problem:**
 
 -   Duplicated code everywhere, hard to maintain.

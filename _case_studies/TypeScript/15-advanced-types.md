@@ -6,8 +6,6 @@ order: 15
 summary: "Learn about Advanced Types in TypeScript"
 ---
 
-Topic 3: Advanced Types (Union, Intersection, Mapped, Conditional, Utility Types)
-
 ## 1. Problem Statement
 
 ## ViBe’s Dynamic Dashboard Dilemma

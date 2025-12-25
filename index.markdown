@@ -4,6 +4,11 @@
 
 layout: home
 ---
-This is a homepage for the winter interns of IIT Ropar at the Vicharanashala Labs. Please take a look at the [FAQ section](Faq.md). You may also want to use our chatbot to get your queries answered. Here is the link to the MERN stack course. Which we exepct you to have covered before getting into a project.  
+
+# Welcome to NPTEL Winter Internship 2025
+
+**Organized by NPTEL** — Master full-stack development with the MERN stack under the guidance of **Prof. Sudarshan Iyengar** at IIT Ropar's Vicharanashala Lab. This intensive program covers TypeScript, React, Express.js, and MongoDB through hands-on case studies and real-world projects, bringing together 400+ learners from across India.
+
+<!-- **Quick Links:** | [FAQ](Faq.md) | [Intro](/intro/) | [Case Studies](/case-studies/)  -->
 
 

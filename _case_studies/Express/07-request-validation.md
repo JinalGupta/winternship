@@ -6,9 +6,6 @@ order: 7
 summary: "Learn about Request Validation in Express"
 ---
 
-
-Request Validation0
-
 ## 1. Problem Statement
 
 ## **A Day at “BrightFuture University” Admissions**

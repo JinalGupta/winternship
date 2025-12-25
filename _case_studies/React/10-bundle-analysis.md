@@ -3,13 +3,8 @@ layout: case-study
 title: "Bundle Analysis"
 module: React
 order: 10
-summary: "Learn about Bundle Analysis in React"
+summary: "Learn about Bundle Analysis: Impact of types and libraries on bundle size"
 ---
-
-
-
-Bundle Analysis: Impact of types and libraries on bundle size.
-
 
 ## 1. Problem Statement
 

@@ -144,6 +144,18 @@ Sequential viewing, camera/mic access, lighting, and noise conditions matter.
 **9.4 Can I use mobile or tablet?**  
 No. Only **desktop/laptop** is supported.
 
+**9.5 I'm experiencing video issues (stuck, looping, skipping) on ViBe. How do I troubleshoot?**  
+Try these troubleshooting steps in order:
+
+1. **Refresh the page** and check multiple times
+2. **Inspect browser console**: Right-click → Inspect → Go to Network or Console tab → Try watching the video and check for any visible errors
+3. **Log out and log in again**
+4. **Use a different browser**
+5. **Clear browsing data and cache**, then try to re-login
+
+If the issue persists after trying all steps, **record the issue** and email it to: **support@vicharanashala.zohodesk.in**
+
+
 ---
 
 ## 10. GitHub Assignment Submission
@@ -156,3 +168,41 @@ Steps:
 - Repository auto-created  
 - Edit `namasthey.js` and `loops.js`  
 - Commit and push
+
+**10.2 I am unable to open my assignment. What should I do?**  
+Try these solutions:
+
+1. **Direct GitHub editing**: Open the source file directly on GitHub and edit it there
+2. **Wait for VS Code loading**: If using VS Code, wait for the assignment to fully load (this may take some time)
+3. **Clone locally**: Use VS Code to clone the repository to your local folder, make changes locally, then push to GitHub
+
+**10.3 How do auto-graded assignments work?**  
+Auto-graded assignments are automatically evaluated each time you commit your code:
+
+- After completing and committing your assignment, look for a **green tick mark** indicating successful grading
+- Navigate to **GitHub Actions** tab in your repository to check the auto-grading workflow status
+- A **green tick** means your code passed all test cases
+- A **red cross** indicates your code has errors or failed some test cases
+- **Every commit triggers auto-grading**, so you can fix issues and commit again until you get the green tick
+
+---
+
+## 11. Health Points System
+
+**11.1 What are health points?**  
+Health points are a scoring system used to track individual and class participation and engagement throughout the internship.
+
+**11.2 How do I earn individual health points?**  
+You can earn individual health points by:
+- **Helping peers** on the Cliq channel
+- **Making progress** on the ViBe platform
+- Health points are awarded **once per day** for individuals
+
+**11.3 How do I lose individual health points?**  
+You lose health points for:
+- **Not having your camera on** during Zoom sessions
+- **Asking queries outside** the designated Cliq channel
+- **Replying to queries** outside the proper thread in the Cliq channel
+
+**11.4 What are class health points?**  
+Class health points are awarded to the **entire class** when the number of students attending Zoom meetings meets the **minimum threshold requirement**.

@@ -3,10 +3,8 @@ layout: case-study
 title: "Lazy Loading"
 module: React
 order: 9
-summary: "Learn about Lazy Loading in React"
+summary: "Learn about Lazy Loading & Code Splitting in React: Dynamic Imports for Performance"
 ---
-
-Lazy Loading & Code Splitting in React: Dynamic Imports for Performance
 
 ## 1. Problem Statement
 

@@ -3,11 +3,9 @@ layout: case-study
 title: "Getting Started with Express"
 module: Express
 order: 1
-summary: "Learn about Getting Started with Express in Express"
+summary: "Learn about Express: Bringing Greenfield Community Center Online"
 ---
 
-
-Getting Started with Express: Bringing Greenfield Community Center Online
 
 ## 1. Problem Statement
 

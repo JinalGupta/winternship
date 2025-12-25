@@ -3,10 +3,8 @@ layout: case-study
 title: "Routing Controllers"
 module: Express
 order: 5
-summary: "Learn about Routing Controllers in Express"
+summary: "Learn about Routing Controllers, Middleware, and Request Validation in Express"
 ---
-
-#Routing Controllers, Middleware, and Request Validation
 
 ## 1. Problem Statement: The Overwhelmed Bakery
 

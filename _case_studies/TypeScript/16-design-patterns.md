@@ -6,7 +6,6 @@ order: 16
 summary: "Learn about Design Patterns in TypeScript"
 ---
 
-Topic 5: Design Patterns  (Singleton, Factory, Observer, Strategy with TypeScript Implementations)
 
 ## 1. Problem Statement
 

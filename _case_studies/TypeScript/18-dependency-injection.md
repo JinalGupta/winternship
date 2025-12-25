@@ -2,11 +2,10 @@
 layout: case-study
 title: "Dependency Injection"
 module: TypeScript
-order: 17
+order: 18
 summary: "Learn about Dependency Injection in TypeScript"
 ---
 
-Topic 6: Dependency Injection in TypeScript (Constructor Injection, Interfaces for Contracts, Basic IoC)
 
 ## 1. Problem Statement
 

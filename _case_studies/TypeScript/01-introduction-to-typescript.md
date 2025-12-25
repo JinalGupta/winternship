@@ -3,7 +3,7 @@ layout: case-study
 title: "Introduction to Typescript"
 module: TypeScript
 order: 1
-summary: "Learn about Introduction to Typescript"
+summary: "Learn about Typescript"
 ---
 
 # Introduction to TypeScript

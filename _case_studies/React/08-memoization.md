@@ -3,10 +3,8 @@ layout: case-study
 title: "Memoization"
 module: React
 order: 8
-summary: "Learn about Memoization in React"
+summary: "Learn about Memoization in React: useMemo, useCallback, and React.memo"
 ---
-
-Memoization in  React: useMemo, useCallback, and  React.memo
 
 ## 1. Problem Statement
 

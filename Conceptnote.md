@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conceptnote
+title: Concept Note
 permalink: /Conceptnote/
 ---
 

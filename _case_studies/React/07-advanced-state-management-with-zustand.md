@@ -3,10 +3,8 @@ layout: case-study
 title: "Advanced State Management with Zustand"
 module: React
 order: 7
-summary: "Learn about Advanced State Management with Zustand in React"
+summary: "Learn about Advanced State Management with Zustand: Middleware, Persistence, and Async Patterns"
 ---
-
-Advanced State Management with Zustand: Middleware, Persistence, and Async Patterns
 
 ## 1. Problem Statement
 

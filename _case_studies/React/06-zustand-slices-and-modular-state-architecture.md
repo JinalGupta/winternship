@@ -3,11 +3,9 @@ layout: case-study
 title: "Zustand Slices and Modular State Architecture"
 module: React
 order: 6
-summary: "Learn about Zustand Slices and Modular State Architecture in React"
+summary: "Learn about Zustand Slices & Modular State Architecture: Scaling a Collaborative Design Platform"
 ---
 
-
-Zustand  Slices & Modular  State Architecture: Scaling a Collaborative  Design Platform
 
 ## 1. Problem  Statement
 

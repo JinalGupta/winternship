@@ -3,7 +3,7 @@ layout: case-study
 title: "Mastering Functions in TypeScript"
 module: TypeScript
 order: 12
-summary: "Learn about Mastering Functions in TypeScript"
+summary: "Learn about Functions in TypeScript"
 ---
 
 # Mastering Functions in TypeScript

@@ -1,12 +1,11 @@
 ---
 layout: case-study
-title: "Request_Response"
+title: "Request and Response"
 module: Express
 order: 4
-summary: "Learn about Request_Response in Express"
+summary: "Learn about Request/Response in Express"
 ---
 
-Topic 8: Request/Response: Typing  `req`,  `res`, and Handling JSON in Express
 
 ## 1. Problem Statement: A Day at "FreshMart" Grocery Stores
 

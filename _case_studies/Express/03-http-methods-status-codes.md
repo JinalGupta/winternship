@@ -6,8 +6,6 @@ order: 3
 summary: "Learn about HTTP Methods & Status Codes in Express"
 ---
 
- Topic 8: HTTP Methods & Status Codes in Express
-
 ## 1. Problem Statement
 ### Case Study: The Neighborhood Food Store Network
 You manage a group of neighborhood food stores. Every day, staff and customers need to:

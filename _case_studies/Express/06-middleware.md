@@ -6,8 +6,6 @@ order: 6
 summary: "Learn about Middleware in Express"
 ---
 
-Middleware
-
 ## 1. Problem Statement : A Day at “CityCare General Hospital”**
 
 CityCare General Hospital prides itself on excellent patient care.  

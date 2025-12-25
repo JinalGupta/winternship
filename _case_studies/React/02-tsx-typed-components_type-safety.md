@@ -1,12 +1,11 @@
 ---
 layout: case-study
-title: "TSX & Typed Components_Type  Safety"
+title: "TSX & Typed Components: Mastering Type Safety"
 module: React
 order: 2
-summary: "Learn about TSX & Typed Components_Type  Safety in React"
+summary: "Learn about TSX & Typed Components: Mastering Type Safety in React"
 ---
 
-TSX & Typed Components: Mastering Type  Safety in React
 
 ## 1. Problem  Statement
 

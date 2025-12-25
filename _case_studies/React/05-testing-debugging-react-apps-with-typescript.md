@@ -1,12 +1,10 @@
 ---
 layout: case-study
-title: "Testing & Debugging React Apps with TypeScript"
+title: "Testing & Debugging React Apps"
 module: React
 order: 5
-summary: "Learn about Testing & Debugging React Apps with TypeScript in React"
+summary: "Learn about Testing & Debugging React Apps with TypeScript: Jest, Linting, and Best Practices"
 ---
-
-Testing & Debugging React Apps with TypeScript: Jest, Linting, and Best Practices
 
 ## 1. Problem Statement
 

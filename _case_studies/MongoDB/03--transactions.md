@@ -3,10 +3,8 @@ layout: case-study
 title: "Transactions"
 module: MongoDB
 order: 3
-summary: "Learn about Transactions in MongoDB"
+summary: "Learn about MongoDB Transactions:  Multi-document transactions for ACID compliance."
 ---
-
-Transactions:  Multi-document transactions for ACID compliance.
 
 ## 1. Problem Statement
 

@@ -2,11 +2,10 @@
 layout: case-study
 title: "IoC Containers & Advanced Dependency Management"
 module: TypeScript
-order: 18
+order: 19
 summary: "Learn about IoC Containers & Advanced Dependency Management in TypeScript"
 ---
 
-Topic 7:  IoC Containers & Advanced Dependency Management
 
 ## 1. Problem Statement
 

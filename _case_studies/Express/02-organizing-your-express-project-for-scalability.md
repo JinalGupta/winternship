@@ -1,12 +1,10 @@
 ---
 layout: case-study
-title: "Organizing Your Express Project for scalability"
+title: "Organizing Your Express Project"
 module: Express
 order: 2
-summary: "Learn about Organizing Your Express Project for scalability in Express"
+summary: "Learn about Organizing Your Express Project for scalability"
 ---
-
- Organizing Your Express Project for Growth
 
 
 ## 1. Problem Statement

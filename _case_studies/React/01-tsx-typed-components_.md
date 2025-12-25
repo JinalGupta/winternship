@@ -1,12 +1,10 @@
 ---
 layout: case-study
-title: "TSX & Typed Components_"
+title: "TSX & Typed Components"
 module: React
 order: 1
-summary: "Learn about TSX & Typed Components_ in React"
+summary: "Learn about TSX & Typed Components in React: Props Interfaces, State Typing, Functional & Class Components"
 ---
-
-TSX & Typed Components in React: Props Interfaces, State Typing, Functional & Class Components
 
 
 ## 1. Problem Statement

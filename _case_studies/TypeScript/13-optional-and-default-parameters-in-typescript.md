@@ -232,6 +232,3 @@ console.log(calculatePrice(100, 0.2)); // 80
     
 -   Default parameters serve as implicit optionals, simplifying code.
     
-
-----------
-

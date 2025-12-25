@@ -3,10 +3,8 @@ layout: case-study
 title: "MVC Pattern"
 module: Express
 order: 8
-summary: "Learn about MVC Pattern in Express"
+summary: "Learn about Building a Scalable Library System with MVC and Modular Design in Express"
 ---
-
-Building a Scalable Library System with MVC and Modular Design
 
 ## 1. Problem Statement
 

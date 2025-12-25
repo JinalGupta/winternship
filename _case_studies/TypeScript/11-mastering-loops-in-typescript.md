@@ -3,7 +3,7 @@ layout: case-study
 title: "Mastering Loops in TypeScript"
 module: TypeScript
 order: 11
-summary: "Learn about Mastering Loops in TypeScript"
+summary: "Learn about Loops in TypeScript"
 ---
 
 # Mastering Loops in TypeScript
@@ -256,6 +256,4 @@ The flowchart of the do...while loop looks as follows
     
 -   Test each loop with edge cases (empty arrays, single items).
     
-
-----------
 

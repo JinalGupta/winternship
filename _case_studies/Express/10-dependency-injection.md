@@ -3,10 +3,8 @@ layout: case-study
 title: "Dependency Injection"
 module: Express
 order: 10
-summary: "Learn about Dependency Injection in Express"
+summary: "Learn about Dependency Injection and Inversion of Control in Express"
 ---
-
-Dependency Injection & Inversion of Control
 
 ## 1. Problem Statement
 Making a Healthcare Appointment System Modular and Testable; Growing Clinic’s Scheduling Headaches

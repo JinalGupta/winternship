@@ -6,8 +6,6 @@ order: 17
 summary: "Learn about Classes & Access Modifiers in TypeScript"
 ---
 
-Topic 1: Classes & Access Modifiers (public, private, protected, inheritance, abstract classes)
-
 ## 1. Problem Statement
 
 **Problem Statement: EduFlow’s Content Control Crisis**

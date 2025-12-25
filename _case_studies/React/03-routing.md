@@ -3,10 +3,8 @@ layout: case-study
 title: "Routing"
 module: React
 order: 3
-summary: "Learn about Routing in React"
+summary: "Learn about Routing in React: Type-Safe Route Parameters with React Router & TypeScript"
 ---
-
-Routing in React: Type-Safe Route Parameters with React Router & TypeScript
 
 ## 1. Problem Statement
 

@@ -3,10 +3,8 @@ layout: case-study
 title: "State Management in React"
 module: React
 order: 4
-summary: "Learn about State Management in React in React"
+summary: "Learn about State Management in React: Context Providers & Zustand (with TypeScript)"
 ---
-
-State Management in React: Context Providers & Zustand (with TypeScript)
 
 ## 1. Problem Statement
 

@@ -3,6 +3,9 @@ layout: project
 title: Peer Evaluation
 order: 4
 summary: Multi-level peer assessment system with automated anomaly detection and escalation workflow
+color: "8B5CF6"
+repo: "vicharanashala/pes"
+features: []
 ---
 
 ## **Project Overview**
@@ -36,4 +39,19 @@ The project implements a fair, transparent multi-level evaluation system ensurin
 
 ## **GitHub Repository**
 
-[PES](https://github.com/vicharanashala/pes)
+[PES](https://github.com/{{ page.repo }}){:target="_blank"}
+
+{% if page.features.size > 0 %}
+## **Upcoming Features**
+
+{% for feature in page.features %}
+<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #{{ page.color }}20 0%, #{{ page.color }}40 100%); border-left: 6px solid #{{ page.color }}; font-weight: 600; list-style: none;">&nbsp;{{ feature.title }}</summary>
+<div style="padding: 1.5rem; background-color: white;">
+{{ feature.description }}
+<br><br>
+<a href="https://github.com/{{ page.repo }}/issues/{{ feature.issue }}" target="_blank" style="color: #{{ page.color }}; font-weight: 600; text-decoration: none;">View Feature Request #{{ feature.issue }} →</a>
+</div>
+</details>
+{% endfor %}
+{% endif %}

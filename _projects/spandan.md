@@ -3,6 +3,30 @@ layout: project
 title: Spandan
 order: 2
 summary: Live class interaction platform with AI-powered question generation
+color: "3B82F6"
+repo: "vicharanashala/poll-question-gen"
+features:
+  - title: "Teacher Dashboard for Student Performance Monitoring"
+    description: "Comprehensive teacher dashboard providing real-time visibility into student engagement, performance trends, point distribution, and achievement progress. Features include session overview, student performance views with sorting/filtering, question analytics, points visibility, achievements monitoring, and post-session summaries. The dashboard updates in real-time during live sessions with read-only access for cohosts."
+    issue: 22
+  - title: "Student Dashboard (Performance & Achievement Overview)"
+    description: "Centralized student dashboard showing performance summary, achievement showcase, question interaction history, and session analytics. Displays total points earned, session-wise breakdowns, accuracy percentages, badges earned, and upcoming achievements. Updates in near real-time during live sessions with full analytics available after completion."
+    issue: 21
+  - title: "Point Allocation & Time-Aware Scoring"
+    description: "Advanced scoring system with configurable point allocation per question and time-based score reduction. Rewards faster responses while maintaining fairness across all students."
+    issue: 20
+  - title: "Achievement System (Badges & Rewards)"
+    description: "Student-side achievement system with badges for milestones like first correct answer, winning streaks, fastest responder, and perfect accuracy. Enhances engagement through gamification and visible progress indicators."
+    issue: 19
+  - title: "Manual Question Generation (Host-Controlled Override)"
+    description: "Allows teachers to manually create and inject questions during live sessions, overriding automatic generation. Provides flexibility for spontaneous assessment and custom question integration."
+    issue: 18
+  - title: "Automatic Question Generation (Real-Time, Interval-Based)"
+    description: "Enhanced automatic question generation triggered at configurable time intervals during live lectures. Ensures consistent student engagement without manual intervention from teachers."
+    issue: 17
+  - title: "Cohost Feature (Poll Room Collaboration)"
+    description: "Multi-host functionality enabling poll room collaboration where cohosts can assist with session management, question monitoring, and student interaction. Supports teaching assistants and co-teachers."
+    issue: 16
 ---
 
 ## **Project Overview**
@@ -23,69 +47,19 @@ Spandan enables seamless real-time classroom interaction, transforming passive l
 
 ## **GitHub Repository**
 
-[Spandan](https://github.com/vicharanashala/poll-question-gen)
+[Spandan](https://github.com/{{ page.repo }}){:target="_blank"}
 
+{% if page.features.size > 0 %}
 ## **Upcoming Features**
 
+{% for feature in page.features %}
 <details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Teacher Dashboard for Student Performance Monitoring</summary>
+<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #{{ page.color }}20 0%, #{{ page.color }}40 100%); border-left: 6px solid #{{ page.color }}; font-weight: 600; list-style: none;">&nbsp;{{ feature.title }}</summary>
 <div style="padding: 1.5rem; background-color: white;">
-Comprehensive teacher dashboard providing real-time visibility into student engagement, performance trends, point distribution, and achievement progress. Features include session overview, student performance views with sorting/filtering, question analytics, points visibility, achievements monitoring, and post-session summaries. The dashboard updates in real-time during live sessions with read-only access for cohosts.
+{{ feature.description }}
 <br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/22" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #22 →</a>
+<a href="https://github.com/{{ page.repo }}/issues/{{ feature.issue }}" target="_blank" style="color: #{{ page.color }}; font-weight: 600; text-decoration: none;">View Feature Request #{{ feature.issue }} →</a>
 </div>
 </details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Student Dashboard (Performance & Achievement Overview)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Centralized student dashboard showing performance summary, achievement showcase, question interaction history, and session analytics. Displays total points earned, session-wise breakdowns, accuracy percentages, badges earned, and upcoming achievements. Updates in near real-time during live sessions with full analytics available after completion.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/21" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #21 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Point Allocation & Time-Aware Scoring</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Advanced scoring system with configurable point allocation per question and time-based score reduction. Rewards faster responses while maintaining fairness across all students.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/20" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #20 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Achievement System (Badges & Rewards)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Student-side achievement system with badges for milestones like first correct answer, winning streaks, fastest responder, and perfect accuracy. Enhances engagement through gamification and visible progress indicators.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/19" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #19 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Manual Question Generation (Host-Controlled Override)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Allows teachers to manually create and inject questions during live sessions, overriding automatic generation. Provides flexibility for spontaneous assessment and custom question integration.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/18" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #18 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Automatic Question Generation (Real-Time, Interval-Based)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Enhanced automatic question generation triggered at configurable time intervals during live lectures. Ensures consistent student engagement without manual intervention from teachers.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/17" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #17 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #3B82F620 0%, #3B82F640 100%); border-left: 6px solid #3B82F6; font-weight: 600; list-style: none;">&nbsp;Cohost Feature (Poll Room Collaboration)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Multi-host functionality enabling poll room collaboration where cohosts can assist with session management, question monitoring, and student interaction. Supports teaching assistants and co-teachers.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/16" target="_blank" style="color: #3B82F6; font-weight: 600; text-decoration: none;">View Feature Request #16 →</a>
-</div>
-</details>
+{% endfor %}
+{% endif %}

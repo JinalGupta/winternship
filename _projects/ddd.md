@@ -3,6 +3,38 @@ layout: project
 title: DDD
 order: 3
 summary: Dopamine Driven Dashboard - Integrated performance and engagement analytics across all projects
+color: "A7F3D0"
+linkColor: "059669"
+repos:
+  - name: "DDD"
+    url: "vicharanashala/ddd"
+  - name: "ViBe(DDD)"
+    url: "vicharanashala/vibe"
+  - name: "Spandan(DDD)"
+    url: "vicharanashala/poll-question-gen"
+  - name: "Peer Evaluation(DDD)"
+    url: "vicharanashala/pes"
+features:
+  - title: "Teacher Dashboard for Student Performance Monitoring (Spandan)"
+    description: "Comprehensive teacher dashboard providing real-time visibility into student engagement, performance trends, point distribution, and achievement progress. Features include session overview, student performance views with sorting/filtering, question analytics, points visibility, achievements monitoring, and post-session summaries. The dashboard updates in real-time during live sessions with read-only access for cohosts."
+    repo: "vicharanashala/poll-question-gen"
+    issue: 22
+  - title: "Student Dashboard - Performance & Achievement Overview (Spandan)"
+    description: "Centralized student dashboard showing performance summary, achievement showcase, question interaction history, and session analytics. Displays total points earned, session-wise breakdowns, accuracy percentages, badges earned, and upcoming achievements. Updates in near real-time during live sessions with full analytics available after completion."
+    repo: "vicharanashala/poll-question-gen"
+    issue: 21
+  - title: "Module-wise Dashboard (ViBe)"
+    description: "Comprehensive teacher dashboard showing analytics and insights organized by individual course modules, enabling granular performance tracking."
+    repo: "vicharanashala/vibe"
+    issue: 538
+  - title: "Quiz-wise Dashboard (ViBe)"
+    description: "Detailed teacher dashboard displaying quiz-specific analytics including student performance, question difficulty, and completion rates per quiz."
+    repo: "vicharanashala/vibe"
+    issue: 537
+  - title: "Section-wise Dashboard (ViBe)"
+    description: "Teacher dashboard organized by course sections, providing insights into section-level performance and progress tracking."
+    repo: "vicharanashala/vibe"
+    issue: 529
 ---
 
 ## **Project Overview**
@@ -27,51 +59,19 @@ DDD creates a unified dashboard bringing together all user activities across pla
 
 ## **GitHub Repositories**
 
-The main repository is at [DDD](https://github.com/vicharanashala/ddd). Project-specific implementations live in [ViBe(DDD)](https://github.com/vicharanashala/vibe), [Spandan(DDD)](https://github.com/vicharanashala/poll-question-gen), and [Peer Evaluation(DDD)](https://github.com/vicharanashala/pes).
+{% for repo in page.repos %}[{{ repo.name }}](https://github.com/{{ repo.url }}){:target="_blank"}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
+{% if page.features.size > 0 %}
 ## **Upcoming Features**
 
+{% for feature in page.features %}
 <details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #A7F3D020 0%, #A7F3D040 100%); border-left: 6px solid #A7F3D0; font-weight: 600; list-style: none;">&nbsp;Teacher Dashboard for Student Performance Monitoring (Spandan)</summary>
+<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #{{ page.color }}20 0%, #{{ page.color }}40 100%); border-left: 6px solid #{{ page.color }}; font-weight: 600; list-style: none;">&nbsp;{{ feature.title }}</summary>
 <div style="padding: 1.5rem; background-color: white;">
-Comprehensive teacher dashboard providing real-time visibility into student engagement, performance trends, point distribution, and achievement progress. Features include session overview, student performance views with sorting/filtering, question analytics, points visibility, achievements monitoring, and post-session summaries. The dashboard updates in real-time during live sessions with read-only access for cohosts.
+{{ feature.description }}
 <br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/22" target="_blank" style="color: #059669; font-weight: 600; text-decoration: none;">View Feature Request #22 →</a>
+<a href="https://github.com/{{ feature.repo }}/issues/{{ feature.issue }}" target="_blank" style="color: #{{ page.linkColor }}; font-weight: 600; text-decoration: none;">View Feature Request #{{ feature.issue }} →</a>
 </div>
 </details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #A7F3D020 0%, #A7F3D040 100%); border-left: 6px solid #A7F3D0; font-weight: 600; list-style: none;">&nbsp;Student Dashboard - Performance & Achievement Overview (Spandan)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Centralized student dashboard showing performance summary, achievement showcase, question interaction history, and session analytics. Displays total points earned, session-wise breakdowns, accuracy percentages, badges earned, and upcoming achievements. Updates in near real-time during live sessions with full analytics available after completion.
-<br><br>
-<a href="https://github.com/vicharanashala/poll-question-gen/issues/21" target="_blank" style="color: #059669; font-weight: 600; text-decoration: none;">View Feature Request #21 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #A7F3D020 0%, #A7F3D040 100%); border-left: 6px solid #A7F3D0; font-weight: 600; list-style: none;">&nbsp;Module-wise Dashboard (ViBe)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Comprehensive teacher dashboard showing analytics and insights organized by individual course modules, enabling granular performance tracking.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/538" target="_blank" style="color: #059669; font-weight: 600; text-decoration: none;">View Feature Request #538 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #A7F3D020 0%, #A7F3D040 100%); border-left: 6px solid #A7F3D0; font-weight: 600; list-style: none;">&nbsp;Quiz-wise Dashboard (ViBe)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Detailed teacher dashboard displaying quiz-specific analytics including student performance, question difficulty, and completion rates per quiz.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/537" target="_blank" style="color: #059669; font-weight: 600; text-decoration: none;">View Feature Request #537 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #A7F3D020 0%, #A7F3D040 100%); border-left: 6px solid #A7F3D0; font-weight: 600; list-style: none;">&nbsp;Section-wise Dashboard (ViBe)</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Teacher dashboard organized by course sections, providing insights into section-level performance and progress tracking.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/529" target="_blank" style="color: #059669; font-weight: 600; text-decoration: none;">View Feature Request #529 →</a>
-</div>
-</details>
+{% endfor %}
+{% endif %}

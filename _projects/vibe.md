@@ -3,6 +3,33 @@ layout: project
 title: ViBe
 order: 1
 summary: AI-proctored video-based Learning Management System
+color: "FF9800"
+repo: "vicharanashala/vibe"
+features:
+  - title: "Filter Users by Role"
+    description: "Filter students and instructors by their roles for easier management and bulk actions. This feature enables teachers to quickly identify and take actions on specific user groups."
+    issue: 605
+  - title: "Profile Picture Edit Option"
+    description: "Enable users to edit and update their profile pictures directly from the profile page, enhancing personalization and user experience."
+    issue: 596
+  - title: "Forgot Password / Remember Password"
+    description: "Implement password recovery functionality and \"remember me\" option to improve authentication convenience and security."
+    issue: 594
+  - title: "Password Visibility Toggle"
+    description: "Add a toggle button allowing users to show or hide their password while typing, improving usability during login and signup."
+    issue: 591
+  - title: "Return to Video from Quiz"
+    description: "Allow students to navigate back to the video from quiz screens, providing flexibility to review content before answering questions."
+    issue: 561
+  - title: "Engagement Games"
+    description: "Interactive games integrated into the learning experience to boost student engagement and motivation through gamified learning activities."
+    issue: 545
+  - title: "Detect and Prevent Microphone Manipulation"
+    description: "Detect malicious microphone manipulation such as reducing input to minimum or using external microphones placed far away. System will prompt users with random phrases to repeat, blocking access if they fail to respond and logging incidents for review."
+    issue: 608
+  - title: "Detect Background Blur / Virtual Background Usage"
+    description: "Identify and block users employing virtual backgrounds or background blur effects during portal access. System logs all detection instances to enable action on repeated violations, ensuring authentic proctoring environments."
+    issue: 607
 ---
 
 ## **Project Overview**
@@ -25,60 +52,19 @@ ViBe builds a full-featured LMS with a video-first approach, recognizing video a
 
 ## **GitHub Repository**
 
-[ViBe](https://github.com/vicharanashala/vibe)
+[ViBe](https://github.com/{{ page.repo }}){:target="_blank"}
 
+{% if page.features.size > 0 %}
 ## **Upcoming Features**
 
+{% for feature in page.features %}
 <details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Filter Users by Role</summary>
+<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #{{ page.color }}20 0%, #{{ page.color }}40 100%); border-left: 6px solid #{{ page.color }}; font-weight: 600; list-style: none;">&nbsp;{{ feature.title }}</summary>
 <div style="padding: 1.5rem; background-color: white;">
-Filter students and instructors by their roles for easier management and bulk actions. This feature enables teachers to quickly identify and take actions on specific user groups.
+{{ feature.description }}
 <br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/605" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #605 →</a>
+<a href="https://github.com/{{ page.repo }}/issues/{{ feature.issue }}" target="_blank" style="color: #{{ page.color }}; font-weight: 600; text-decoration: none;">View Feature Request #{{ feature.issue }} →</a>
 </div>
 </details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Profile Picture Edit Option</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Enable users to edit and update their profile pictures directly from the profile page, enhancing personalization and user experience.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/596" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #596 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Forgot Password / Remember Password</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Implement password recovery functionality and "remember me" option to improve authentication convenience and security.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/594" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #594 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Password Visibility Toggle</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Add a toggle button allowing users to show or hide their password while typing, improving usability during login and signup.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/591" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #591 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Return to Video from Quiz</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Allow students to navigate back to the video from quiz screens, providing flexibility to review content before answering questions.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/561" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #561 →</a>
-</div>
-</details>
-
-<details style="margin-bottom: 1.5rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-<summary style="cursor: pointer; padding: 1rem 1.5rem; background: linear-gradient(135deg, #FF980020 0%, #FF980040 100%); border-left: 6px solid #FF9800; font-weight: 600; list-style: none;">&nbsp;Engagement Games</summary>
-<div style="padding: 1.5rem; background-color: white;">
-Interactive games integrated into the learning experience to boost student engagement and motivation through gamified learning activities.
-<br><br>
-<a href="https://github.com/vicharanashala/vibe/issues/545" target="_blank" style="color: #FF9800; font-weight: 600; text-decoration: none;">View Feature Request #545 →</a>
-</div>
-</details>
+{% endfor %}
+{% endif %}

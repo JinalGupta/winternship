@@ -2,6 +2,8 @@
 Title: "From Fear to Flow: My MERN Sprint"
 Author: Nitin Choudhary
 nptel_id: WIN25299
+LinkedIn_Profile: www.linkedin.com/in/nitin-choudhary-630368279
+Article: https://www.linkedin.com/pulse/from-fear-flow-my-mern-sprint-nitin-choudhary-qnd2c
 ---
 
 

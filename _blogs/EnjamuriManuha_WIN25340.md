@@ -24,4 +24,4 @@ Sudarshan Sir and the entire team continuously introduce new activities that mak
 Overall, this experience has been truly life-changing. It transformed the way I think, study, and focus. Studying in an IIT has always been a dream for me, and in this form, through this internship, I feel that dream has been fulfilled. As my first internship, this journey will always remain special to me. Above all, I feel deep gratitude and thankfulness toward all the teachers who work so hard for our growth, not just as developers, but as individuals.
 
 Author: [Enjamuri Manuha](https://www.linkedin.com/in/enjamurimanuha)  
-LinkedIn Article: [Read on LinkedIn]()
+LinkedIn Article: [Read on LinkedIn](https://www.linkedin.com/pulse/my-first-internship-more-than-just-manuha-enjamuri-axifc)

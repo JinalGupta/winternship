@@ -11,5 +11,5 @@ layout: home
 
 ## 📊 Live Dashboard
 
-➡️ [Open Live Dashboard](./dashboard.html)
+➡️ [Open Live Dashboard](./Dashboard.html)
 

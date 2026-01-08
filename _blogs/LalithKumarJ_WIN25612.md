@@ -20,13 +20,13 @@ After the first week, we moved into case studies, and that phase gave me a solid
 
 There’s a saying: it takes two hands clapping to make a sound. That’s exactly how the case studies felt. Working together made everything clearer and more enjoyable.
 
-I also attended this journey with two of my college friends, Bhavan K and Balasurya G . Each day gave us something to discuss, reflect on, and learn from together. Along the way, I connected with new people like Siva Balan and JAISREE RAGAVI J and many more during breakout rooms. Everyone brought their own perspective, and learning truly became a group activity.
+I also attended this journey with two of my college friends, Bhavan K and Balasurya G. Each day gave us something to discuss, reflect on, and learn from together. Along the way, I connected with new people like Siva Balan and JAISREE RAGAVI J, and many more during breakout rooms. Everyone brought their own perspective, and learning truly became a group activity.
 
 Every single day felt special. It was never just another routine day.
 
 Now, I’m eager to move into the project phase, where I hope to work on projects that solve real-world problems.
 
-This journey wouldn’t have been this smooth without the amazing team behind it. Meenakshi V ma’am’s morning enthusiasm and smile always brightened the stand-ups. Sakshi Sharma ma’am’s health points idea, dashboard and games added fun and motivation. Jinal Gupta mam, Harshdeep Rana mam, and @Bhavana Yedla mam were always kind and supportive. Nitin Sankar sir’s support and guiding words, Rohit Sharma sir’s project ideas, and Nandan Prabhudesai sir’s teaching - especially in ViBe and live sessions played a huge role in shaping this experience. 
+This journey wouldn’t have been this smooth without the amazing team behind it. Meenakshi V ma’am’s morning enthusiasm and smile always brightened the stand-ups. Sakshi Sharma ma’am’s health points idea, dashboard and games added fun and motivation. Jinal Gupta mam, Harshdeep Rana mam, and Bhavana Yedla mam were always kind and supportive. Nitin Sankar sir’s support and guiding words, Rohit Sharma sir’s project ideas, and Nandan Prabhudesai sir’s teaching, especially in ViBe and live sessions played a huge role in shaping this experience. 
 
 I’m deeply thankful to all of them for their guidance, support, and friendliness.
 
